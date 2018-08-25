@@ -14,4 +14,4 @@ mv mart-spring/build/libs/mart-spring-0.0.1-SNAPSHOT.jar mart-spring-0.0.1-SNAPS
 
 docker build -t txhsl/crowdsourcing-spring-docker . 
 
-docker run -d -p 3000:3000 txhsl/crowdsourcing-spring-docker
+docker run -d -p 30001:30001 txhsl/crowdsourcing-spring-docker
